@@ -75,10 +75,6 @@
             this.labTen = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.dgvNhanVien = new System.Windows.Forms.DataGridView();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.txtTimKiem = new System.Windows.Forms.TextBox();
-            this.lblTimKiem = new System.Windows.Forms.Label();
-            this.openFile = new System.Windows.Forms.OpenFileDialog();
             this.MaNV = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.HoTen = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NgaySinh = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -89,6 +85,10 @@
             this.CMT = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.SoHD = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.NgayBatDau = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.txtTimKiem = new System.Windows.Forms.TextBox();
+            this.lblTimKiem = new System.Windows.Forms.Label();
+            this.openFile = new System.Windows.Forms.OpenFileDialog();
             this.panel3.SuspendLayout();
             this.panel1.SuspendLayout();
             this.tabConDSNV.SuspendLayout();
@@ -604,37 +604,6 @@
             this.dgvNhanVien.TabIndex = 1;
             this.dgvNhanVien.DoubleClick += new System.EventHandler(this.DgvNhanVien_DoubleClick);
             // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.txtTimKiem);
-            this.panel2.Controls.Add(this.lblTimKiem);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(3, 3);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(812, 27);
-            this.panel2.TabIndex = 0;
-            // 
-            // txtTimKiem
-            // 
-            this.txtTimKiem.Location = new System.Drawing.Point(83, 1);
-            this.txtTimKiem.Name = "txtTimKiem";
-            this.txtTimKiem.Size = new System.Drawing.Size(461, 26);
-            this.txtTimKiem.TabIndex = 1;
-            // 
-            // lblTimKiem
-            // 
-            this.lblTimKiem.AutoSize = true;
-            this.lblTimKiem.Location = new System.Drawing.Point(6, 4);
-            this.lblTimKiem.Name = "lblTimKiem";
-            this.lblTimKiem.Size = new System.Drawing.Size(71, 20);
-            this.lblTimKiem.TabIndex = 0;
-            this.lblTimKiem.Text = "Tìm kiếm";
-            this.lblTimKiem.Click += new System.EventHandler(this.Label2_Click);
-            // 
-            // openFile
-            // 
-            this.openFile.FileName = "openFileDialog1";
-            // 
             // MaNV
             // 
             this.MaNV.DataPropertyName = "MaNV";
@@ -704,6 +673,37 @@
             this.NgayBatDau.HeaderText = "Ngày bắt đầu";
             this.NgayBatDau.Name = "NgayBatDau";
             this.NgayBatDau.ReadOnly = true;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.txtTimKiem);
+            this.panel2.Controls.Add(this.lblTimKiem);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
+            this.panel2.Location = new System.Drawing.Point(3, 3);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(812, 27);
+            this.panel2.TabIndex = 0;
+            // 
+            // txtTimKiem
+            // 
+            this.txtTimKiem.Location = new System.Drawing.Point(83, 1);
+            this.txtTimKiem.Name = "txtTimKiem";
+            this.txtTimKiem.Size = new System.Drawing.Size(461, 26);
+            this.txtTimKiem.TabIndex = 1;
+            // 
+            // lblTimKiem
+            // 
+            this.lblTimKiem.AutoSize = true;
+            this.lblTimKiem.Location = new System.Drawing.Point(6, 4);
+            this.lblTimKiem.Name = "lblTimKiem";
+            this.lblTimKiem.Size = new System.Drawing.Size(71, 20);
+            this.lblTimKiem.TabIndex = 0;
+            this.lblTimKiem.Text = "Tìm kiếm";
+            this.lblTimKiem.Click += new System.EventHandler(this.Label2_Click);
+            // 
+            // openFile
+            // 
+            this.openFile.FileName = "openFileDialog1";
             // 
             // FrmQLNS
             // 
