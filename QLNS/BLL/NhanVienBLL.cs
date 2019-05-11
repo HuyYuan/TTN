@@ -17,8 +17,7 @@ namespace QLNS.BLL
         SqlConnection conn = new SqlConnection();
         public NhanVienBLL()
         {
-            // chỗ này là kết nối sql anh thay tên sql của anh vào, 
-            // có cần mở lại SQL ko em nhỉ ???
+            // chỗ này là kết nối sql anh thay tên sql của anh vào,
             // có nhưng teamview xong thì anh mở giờ mở chạy chậm lắm, giờ chủ yếu để thử push thôi
             string connString = @"Data Source=  ;Initial Catalog=QLNS;Integrated Security=True";
        
