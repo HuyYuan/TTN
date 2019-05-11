@@ -16,9 +16,11 @@ namespace QLNS.BLL
         private static NhanVienBLL instance;
         SqlConnection conn = new SqlConnection();
         public NhanVienBLL()
-        {
-            string connString = @"Data Source=DESKTOP-34CKI58\HOAI;Initial Catalog=QLNS;Integrated Security=True";
-
+        {// chỗ này là kết nối sql anh thay tên sql của anh vào, 
+            // có cần mở lại SQL ko em nhỉ ???
+            // có nhưng teamview xong thì anh mở giờ mở chạy chậm lắm, giờ chủ yếu để thử push thôi
+            string connString = @"Data Source=  ;Initial Catalog=QLNS;Integrated Security=True";
+       
             conn.ConnectionString = connString;
             conn.Open();
         }
